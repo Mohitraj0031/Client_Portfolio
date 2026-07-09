@@ -42,7 +42,7 @@ const Navbar = () => {
             className="cursor-pointer transition-transform text-2xl md:text-3xl"
             onClick={() => handleSectionClick('home')}
           >
-            <AiFillHome />
+            <AiFillHome className="text-gray-900 hover:scale-125" />
           </ScrollLink>
         </div>
 
@@ -53,7 +53,7 @@ const Navbar = () => {
               smooth
               duration={800}
               offset={-100}
-              className="cursor-pointer rounded-full p-1 pr-4 pl-4 hover:bg-black hover:text-white"
+              className="cursor-pointer rounded-full p-1 pr-4 pl-4 hover:bg-gray-900 hover:text-white"
               onClick={() => handleSectionClick('about_me')}
             >
               About
@@ -65,7 +65,7 @@ const Navbar = () => {
               smooth
               duration={800}
               offset={-100}
-              className="cursor-pointer rounded-full p-1 pr-4 pl-4 hover:bg-black hover:text-white"
+              className="cursor-pointer rounded-full p-1 pr-4 pl-4 hover:bg-gray-900 hover:text-white"
               onClick={() => handleSectionClick('experience')}
             >
               Experience
@@ -77,7 +77,7 @@ const Navbar = () => {
               smooth
               duration={800}
               offset={-100}
-              className="cursor-pointer rounded-full p-1 pr-4 pl-4 hover:bg-black hover:text-white"
+              className="cursor-pointer rounded-full p-1 pr-4 pl-4 hover:bg-gray-900 hover:text-white"
               onClick={() => handleSectionClick('projects')}
             >
               Projects
@@ -89,7 +89,7 @@ const Navbar = () => {
               smooth
               duration={800}
               offset={-100}
-              className="cursor-pointer rounded-full p-1 pr-4 pl-4 hover:bg-black hover:text-white"
+              className="cursor-pointer rounded-full p-1 pr-4 pl-4 hover:bg-gray-900 hover:text-white"
               onClick={() => handleSectionClick('contact_us')}
             >
               Contact
