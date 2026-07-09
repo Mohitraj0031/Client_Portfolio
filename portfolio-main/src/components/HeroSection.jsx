@@ -2,7 +2,7 @@ import image from "../images/portfolio_logo.jpg";
 
 const HeroSection = () => {
   return (
-    <div className="flex items-center justify-center h-screen bg-gray-900 text-white">
+    <div className="flex items-center justify-center h-screen bg-gradient-to-br from-gray-700 to-gray-900 text-white">
       {/* <img
         className="w-36 h-36 m-10 rounded-full lg:w-52 lg:h-52 lg:m-20 "
         src={image}
