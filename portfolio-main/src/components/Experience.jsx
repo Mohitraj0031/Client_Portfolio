@@ -19,7 +19,7 @@ const Experience = () => {
             </ul>
           </div>
           <div className="text-center border-2 border-gray-400 p-4 rounded-lg outline outline-transparent outline-2 hover:outline-white hover:outline-2 transition duration-300 hover:scale-105 hover:border-none hover:bg-gray-900 ">
-            <h2 className="text-2xl font-semibold mb-2">Professinal Skills</h2>
+            <h2 className="text-2xl font-semibold mb-2">Professional Skills</h2>
             <ul className="mx-auto w-fit list-disc list-inside text-left space-y-1 text-lg">
               <li>Financial Analysis</li>
               <li>Financial Modeling</li>
