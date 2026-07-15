@@ -8,8 +8,8 @@ import Navbar from './components/Navbar'
 import Project from './components/Project'
 import ContactUs from './components/ContactUs'
 import Footer from './components/Footer'
-import ProjectImage2 from './images/Project-Image-2.png'
-import ProjectImage3 from './images/Project-Image.png'
+import ProjectImage2 from "./images/Finanacial_Modelling04.jpg";
+import ProjectImage3 from "./images/J.P_Morgen03.png";
 
 
 function App() {
@@ -41,8 +41,8 @@ function App() {
         )}
       />
       <Route path="/projects/project-1" element={<ProjectPage title="Project 1" />} />
-      <Route path="/projects/project-2" element={<ProjectPage title="Project 2" image={ProjectImage2} description="This page is opened through route navigation from the Project 2 tab." />} />
-      <Route path="/projects/project-3" element={<ProjectPage title="Project 3" image={ProjectImage3} description="This page is opened through route navigation from the Project 3 tab." />} />
+      <Route path="/projects/project-2" element={<ProjectPage title="Certification" image={ProjectImage2} description="This page is opened through route navigation from Financial Modelling Certification." />} />
+      <Route path="/projects/project-3" element={<ProjectPage title="Certification" image={ProjectImage3} description="This page is opened through route navigation from the J.P. Morgan Certification tab." />} />
     </Routes>
   )
 }

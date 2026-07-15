@@ -1,4 +1,4 @@
-import ProjectImage1 from "../../images/Project-Image-1.jpg";
+import ProjectImage1 from "../../images/Financial_Accounting01.jpg";
 
 const ProjectOne = () => {
   return (
@@ -14,27 +14,12 @@ const ProjectOne = () => {
 
         <div>
           <p className="text-sm uppercase tracking-[0.3em] text-slate-500">
-            Selected project
+            Selected Certifications
           </p>
-          <h2 className="mt-3 text-3xl font-bold">This is the project one</h2>
+          <h2 className="mt-3 text-3xl font-bold">This is the Financial Analyst Certification</h2>
           <p className="mt-4 text-sm leading-6 text-slate-600">
-            This page is opened through route navigation from the Project 1 tab.
-          </p>
-
-          <div className="mt-8 flex flex-wrap gap-3 text-sm font-medium">
-            <a
-              className="rounded-full border border-black px-4 py-2 transition hover:bg-black hover:text-white"
-              href="#"
-            >
-              Github
-            </a>
-            <a
-              className="rounded-full border border-black px-4 py-2 transition hover:bg-black hover:text-white"
-              href="#"
-            >
-              Live Demo
-            </a>
-          </div>
+            This page is opened through route navigation from the Financial Analyst Certification tab.
+          </p>    
         </div>
       </div>
     </div>

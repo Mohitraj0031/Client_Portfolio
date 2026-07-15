@@ -21,20 +21,12 @@ const ProjectPage = ({ title, image, description }) => (
             </div>
 
             <div>
-              <p className="text-sm uppercase tracking-[0.3em] text-slate-500">Selected project</p>
+              <p className="text-sm uppercase tracking-[0.3em] text-slate-500">Selected Certifications</p>
               <h2 className="mt-3 text-3xl font-bold">{title}</h2>
               <p className="mt-4 text-sm leading-6 text-slate-600">
                 {description}
               </p>
 
-              <div className="mt-8 flex flex-wrap gap-3 text-sm font-medium">
-                <a className="rounded-full border border-black px-4 py-2 transition hover:bg-black hover:text-white" href="#">
-                  Github
-                </a>
-                <a className="rounded-full border border-black px-4 py-2 transition hover:bg-black hover:text-white" href="#">
-                  Live Demo
-                </a>
-              </div>
             </div>
           </div>
         </div>

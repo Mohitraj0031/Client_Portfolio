@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import ProjectImage1 from "../images/Project-Image-1.jpg";
-import ProjectImage2 from "../images/Project-Image-2.png";
-import ProjectImage3 from "../images/Project-Image.png";
+import ProjectImage1 from "../images/Financial_Accounting01.jpg";
+import ProjectImage2 from "../images/Finanacial_Modelling04.jpg";
+import ProjectImage3 from "../images/J.P_Morgen03.png";
 
 const Project = () => {
   return (
@@ -39,7 +39,7 @@ const Project = () => {
             <div className="p-5 rounded-lg">
               <img className="rounded-lg" src={ProjectImage2} alt="Project 2" />
             </div>
-            <h3 className="text-lg font-semibold mt-4 text-black">Power BI Certification</h3>
+            <h3 className="text-lg font-semibold mt-4 text-black">Financial Modelling Certification</h3>
 
             {/* <div className="flex justify-center items-center text-sm font-light gap-4 mt-10">
               <div className="border-2 border-black rounded-2xl hover:bg-black hover:text-white">
